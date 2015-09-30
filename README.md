@@ -33,7 +33,7 @@ and check test coverage:
 
 	$ open coverage/phantomjs/index.html
 
-# How to combine JSPM's module handling in tests
+#### How to combine JSPM's module handling in tests
 
 In order to get both, testcases and sourcefiles, working with es6 module loading, two cases must be distinguished:
 
