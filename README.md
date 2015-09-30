@@ -23,7 +23,7 @@ As a bonus, some very helpful testing utilities are also shipped with this bundl
 
 You may need to start Chrome with a special flag in order to avoid some security restrictions when accessing local files. [This post](http://stackoverflow.com/questions/4819060/allow-google-chrome-to-use-xmlhttprequest-to-load-a-url-from-a-local-file) explains the details.
 
-# Testing
+## Testing
 
 Now let's do some testing and launch karma
 
@@ -57,7 +57,7 @@ In order to get both, testcases and sourcefiles, working with es6 module loading
 ```
 Take a look at `test/misc/testsystem.js` and the all other sample files for more details and examples. In particular the way to stub whole dependencies is quite nice.
 
-# Bundeling the project
+## Bundeling the project
 
 A simple way to build distribution bundles is also part of this package. It's basically all steps described in [this video](https://www.youtube.com/watch?v=NpMnRifyGyw) (minute 24:45).
 
