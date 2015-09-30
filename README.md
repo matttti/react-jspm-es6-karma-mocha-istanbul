@@ -5,19 +5,19 @@ As a bonus, some very helpful testing utilities are also shipped with this bundl
 
 [Babel](https://babeljs.io/) is used as the es6 transpiler and has the very nice [es7.asyncFunctions](https://github.com/lukehoban/ecmascript-asyncawait) enabled, which help a lot to write clean and readable testcases when using System.js API used by JSPM.
 
-### To install and run:
+#### To install and run:
 
 	$ npm install -g jspm
 	$ make install
 
-### Or step by step
+#### Or step by step
 
 	$ npm install -g jspm
 	$ npm install
 	$ jspm install
 	$ jspm install --dev
 
-### Then just open
+#### Then just open
 
 	$ open index.html
 
