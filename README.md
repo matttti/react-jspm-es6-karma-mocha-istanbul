@@ -39,10 +39,12 @@ In order to get both, testcases and sourcefiles, working with es6 module loading
 
 1. All dependencies concerning testing can be loaded using plain es6 import syntax, e.g.
 
+```js
 	import sinon from 'sinon';
-
-2. The code under test (source files, libraries like React) should be loaded via the System.js API, preferable inside the test cases themselves. This gives a very precise control on dependency handling and empowers us to stub/mock dependencies and restore a fresh system afterwards. In `test/misc/testsystem.js`, some helpful utilities were added to make this job easier. Here's an example:
 ```
+2. The code under test (source files, libraries like React) should be loaded via the System.js API, preferable inside the test cases themselves. This gives a very precise control on dependency handling and empowers us to stub/mock dependencies and restore a fresh system afterwards. In `test/misc/testsystem.js`, some helpful utilities were added to make this job easier. Here's an example:
+
+```js
 	import Testsystem from 'test/misc/testsystem';
 
 	describe('foo', () => {
