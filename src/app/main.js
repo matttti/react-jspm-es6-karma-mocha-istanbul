@@ -4,9 +4,13 @@ import ReactDOM  from'react-dom';
 export class HelloWorld extends React.Component {
 	render() {
 		return (
-			<h1>Hello, {this.props.name}</h1>
+			<div>
+				<h1>Hello, {this.props.name}</h1>
+			</div>
 		);
 	}
 }
 
-ReactDom.render(<HelloWorld name="World" />, document.body);
+// detect test runner, there's for sure a better way
+if(typeof window.it !== 'function')
+	ReactDOM.render(<HelloWorld name="World" />, document.getElementById('App'));
