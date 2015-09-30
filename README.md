@@ -17,7 +17,7 @@ As a bonus, some very helpful testing utilities are also shipped with this bundl
 	$ jspm install
 	$ jspm install --dev
 
-#### Then just open
+#### See it in action
 
 	$ open index.html
 
