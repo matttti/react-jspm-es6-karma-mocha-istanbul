@@ -64,4 +64,4 @@ Take a look at `test/misc/testsystem.js` and the all other sample files for more
 
 A simple way to build distribution bundles is also part of this package. It's basically all steps described in [this video](https://www.youtube.com/watch?v=NpMnRifyGyw) (minute 24:45).
 
-	$ make dist
+	$ make build
